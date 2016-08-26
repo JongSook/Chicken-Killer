@@ -1,0 +1,54 @@
+// Relay
+
+#define relay_on 3
+#define raley_off 4
+
+void setup()
+{
+pinMode(relay_on, OUTPUT);
+pinMode(relay_off, OUTPUT);
+}
+
+void loop()
+{
+}
+
+
+// Remote
+
+#define turn_on_relay 5
+#define turn_off_relay 6
+
+void setup()
+{
+pinMode(turn_on_relay, INPUT);
+pinMode(turn_off_relay, INPUT);
+}
+
+void loop()
+{
+if (digitalRead(turn_on_relay) == HIGH)
+ Relay active
+else (digitalRead(turn_off_relay) == HIGH)
+ Relay shut down
+}
+
+
+// Motor
+
+#define motor_en_pwm 7
+#define motor_in_1 8
+#define motor_in_2 9
+
+void setup()
+{
+pinMode(motor_en_pwm, OUTPUT);
+pinMode(motor_in_1, OUTPUT);
+pinMode(motor_in_2, OUTPUT);
+}
+
+void loop()
+{
+}
+
+// Reed Switch
