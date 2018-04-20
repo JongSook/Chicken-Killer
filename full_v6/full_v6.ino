@@ -110,7 +110,7 @@ void loop() {
       digitalWrite(motor1, HIGH); 
       digitalWrite(motor2, HIGH);   
 
-      delay(2700);
+      delay(5700);
 
       digitalWrite(RELAY1, HIGH); 
       digitalWrite(RELAY4, HIGH);
@@ -159,7 +159,7 @@ void loop() {
       digitalWrite(motor1, HIGH); 
       digitalWrite(motor2, HIGH);   
 
-      delay(3700);
+      delay(9700);
 
       digitalWrite(RELAY1, HIGH); 
       digitalWrite(RELAY4, HIGH);
