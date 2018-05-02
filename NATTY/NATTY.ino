@@ -150,7 +150,7 @@ void loop() {
   }
 
   case 0:{
-    delay(3000);
+    delay(1000);
 
     do{
       for(int i=0; i<=256; i=i+63){
